@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mishal's Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="stickman.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <div class="col g-2">
+                <a class="navbar-title" href="https://github.com/mishalali-A2" target="_blank">GitHub</a>
+                <a class="navbar-title" href='https://www.linkedin.com/in/mishal-ali-a50a80131/' target="_blank">LinkedIn</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="stickman" id="stickman">
+        <div class="head"></div>
+        <div class="torso">
+            <div class="left-arm"></div>
+            <div class="right-arm"></div>
+            <div class="left-leg"></div>
+            <div class="right-leg"></div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    
+    <div class="container my-5">
+        <h1 class="display-4 mb-5">My Projects</h1>
+        
+        <div class="projects-wrapper">
+            <!-- Projects Container -->
+            <div class="projects-container" id="projectsContainer">
+                <!-- Meeting Master Bot -->
+                <div class="project-card">
+                    <div class="project-card-front">
+                        <h2>Meeting Master Bot</h2>
+                        <p class="project-tech">Python, OpenCV, Real-Time Processing, VAD</p>
+                        <p class="project-desc">AI-powered meeting assistant with face detection and automated summaries.</p>
+                        <div class="project-link">
+                            <a href="https://github.com/fastgenesys/summer_25_meetingmaster.git" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <ul class="project-features">
+                            <li>Multi-face detection with employee/unknown classification</li>
+                            <li>Threaded architecture for low-latency processing</li>
+                            <li>Voice Activity Detection for meeting segmentation</li>
+                            <li>Automated meeting minutes generation</li>
+                            <li>Real-time processing with OpenCV</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Gym Management App -->
+                <div class="project-card active">
+                    <div class="project-card-front">
+                        <h2>Gym Management App</h2>
+                        <p class="project-tech">Java, .NET Framework, PostgreSQL, Excel</p>
+                        <p class="project-desc">A database-driven application for tracking memberships, payments, with automated data import/export.</p>
+                        <div class="project-link">
+                            <a href="https://github.com/AyaanKhan1576/Flex-Gym-Management-System-with-GUI.git" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <ul class="project-features">
+                            <li>Created efficient queries with optimized indexing</li>
+                            <li>Implemented database structures for data retrieval and management</li>
+                            <li>Developed user-friendly interfaces for staff members</li>
+                            <li>Automated monthly report generation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Online Event Booking Service -->
+                <div class="project-card">
+                    <div class="project-card-front">
+                        <h2>Online Event Booking Service</h2>
+                        <p class="project-tech">MERN, Kubernetes, Docker, GitActions, ArgoCD</p>
+                        <p class="project-desc">Microservices-based app to manage booking tickets for different events with full DevOps pipeline.</p>
+                        <div class="project-link">
+                            <a href="https://github.com/AyaanKhan1576/Event-Booking-Microservices-DevOps-Project.git" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <ul class="project-features">
+                            <li>Implemented CI/CD pipelines with GitActions and ArgoCD</li>
+                            <li>Containerized services using Docker and managed with Kubernetes</li>
+                            <li>Automated infrastructure provisioning with Terraform</li>
+                            <li>Monitored application performance with Prometheus</li>
+                            <li>Implemented JWT authentication for microservices</li>
+                        </ul>
+                    </div>
+                </div>
+
+            
+                <!-- Hotel Booking Services -->
+                <div class="project-card">
+                    <div class="project-card-front">
+                        <h2>Hotel Booking Services</h2>
+                        <p class="project-tech">MERN, Postman, Docker, Jest, Supertest</p>
+                        <p class="project-desc">Microservices-based booking app following SE principles and SCRUM methodology.</p>
+                        <div class="project-link">
+                            <a href="https://github.com/mishalali-A2/Hotel-Booking-Microservices.git" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <ul class="project-features">
+                            <li>Implemented RESTful APIs for booking management</li>
+                            <li>Used Postman for API testing and documentation</li>
+                            <li>Containerized services with Docker</li>
+                            <li>Implemented unit and integration tests</li>
+                            <li>Followed Agile development practices</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Dietary Tracker App -->
+                <div class="project-card">
+                    <div class="project-card-front">
+                        <h2>Dietary Tracker App</h2>
+                        <p class="project-tech">Java, JavaFx, Scene Builder, UML</p>
+                        <p class="project-desc">3-tier application using UML modeling and MVC/Repository patterns.</p>
+                        <div class="project-link">
+                            <a href="https://github.com/AyaanKhan1576/Dietary-Management-System-with-GUI.git" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <ul class="project-features">
+                            <li>Implemented JavaFx for responsive GUI</li>
+                            <li>Used Scene Builder for UI design</li>
+                            <li>Reduced debugging time by 30%</li>
+                            <li>Implemented clean architecture patterns</li>
+                            <li>Created comprehensive UML documentation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- AI-Powered Racing Controller -->
+                <div class="project-card">
+                    <div class="project-card-front">
+                        <h2>AI-Powered Racing Controller</h2>
+                        <p class="project-tech">Python, Torcs, Machine Learning</p>
+                        <p class="project-desc">Autonomous racing controller implementing real-time sensor data processing.</p>
+                        <div class="project-link">
+                            <a href="https://github.com/mishalali-A2/TORCS.git" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <ul class="project-features">
+                            <li>Used Python for data processing and control logic</li>
+                            <li>Integrated with Torcs racing simulator</li>
+                            <li>Implemented RandomForest decision-making</li>
+                            <li>Real-time sensor data processing</li>
+                            <li>Adaptive learning from race performance</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Pacman Game -->
+                <div class="project-card">
+                    <div class="project-card-front">
+                        <h2>Pacman Game</h2>
+                        <p class="project-tech">Assembly Language, C++, SFML, Shell</p>
+                        <p class="project-desc">Pacman implementation focusing on OS fundamentals.</p>
+                        <div class="project-link">
+                            <a href="https://github.com/mishalali-A2/Pacman-Game.git" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card-back">
+                        <ul class="project-features">
+                            <li>Implemented threading and synchronization</li>
+                            <li>Used mutexes and semaphores for ghost/user input</li>
+                            <li>Low-level memory management</li>
+                            <li>Process scheduling implementation</li>
+                            <li>Cross-platform compatibility</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="instructions">
+        Click on the stickman or use Arrow Keys to Navigate ← → 
+    </div>
+    <footer class="footer">
+        <div class="container text-center">
+                <p>&copy; 2025 Mishal's Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
